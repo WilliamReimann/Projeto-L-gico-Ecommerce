@@ -77,7 +77,7 @@ select idProduct, Fname, SocialName, CNPJ from product
          -- Mostrar o nome e preço dos produtos com preço maior que 500 reais
 select Fname, Category, Price from product having Price > 500 order by Fname, Category;
 
-       -- Quantos produtos cadastrados têm a categoria igul a cano baixo?
+       -- Quantos produtos cadastrados têm a categoria igual a cano baixo?
 select count(*) from product where Category = 'cano baixo';
 
 
